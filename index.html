@@ -6,8 +6,49 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>KATI</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+
+<!-- META -->
+
+<meta
+name="keywords"
+content="Web developer, developer,Software developer, software engineer, HTML, CSS, JavaScript, React, Node Express Javascript, Java, technology company"
+/>
+<meta name="author" content="Kati Technology" />
+<meta name="title" content="Kati Technology | Technology team" />
+<meta
+name="description"
+content="Creators of websites and web applications for you and your business."
+/>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<meta property="og:title" content="Kati Technology | Technology team" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://kati.netlify.app" />
+<meta
+property="og:image"
+content="assets/img/apple-touch-icon.png"
+/>
+<meta
+property="og:description"
+content="Creators of websites and web applications for you and your business."
+/>
+
+<meta property="twitter:card" content="Software Developer" />
+<meta
+property="twitter:url"
+content="https://kati.netlify.app"
+/>
+<meta property="twitter:title" content="Kati Technology | Technology team" />
+<meta
+property="twitter:description"
+content="Creators of websites and web applications for you and your business."
+/>
+<meta
+property="twitter:image"
+content="assets/img/apple-touch-icon.png"
+/>
+
+ 
 
   <!-- Favicons -->
   <link href="assets/img/apple-touch-icon.png" rel="icon">
@@ -32,7 +73,7 @@
 
 </head>
 
-<body>
+<body style="margin:auto auto;max-width:1500px;">
 
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top ">
@@ -365,13 +406,13 @@
               <div class="email">
                 <i class="bi bi-envelope"></i>
                 <h4>Email:</h4>
-                <p>info@example.com</p>
+                <p>katitechnologyteam@gmail.com</p>
               </div>
 
               <div class="phone">
                 <i class="bi bi-phone"></i>
                 <h4>Call:</h4>
-                <p>07 5589 55488 55s</p>
+                <p>0758678812</p>
               </div>
 
               <!-- <iframe src="" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe> -->
@@ -380,24 +421,32 @@
           </div>
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form 
+            data-netlify="true"
+             method="post"
+              role="form"
+              name="contact" 
+              class="php-email-form">
+
               <div class="row">
                 <div class="form-group col-md-6">
-                  <label for="name">Your Name</label>
-                  <input type="text" name="name" class="form-control" id="name" required>
+                  <label for="validationDefault01">Your Name</label>
+                  <input type="text" name="name" class="form-control" id="name"id="validationDefault01" id="contact_form_name" required>
                 </div>
-                <div class="form-group col-md-6">
-                  <label for="name">Your Email</label>
-                  <input type="email" class="form-control" name="email" id="email" required>
+                <div class="form-group col-md-6 form-label">
+                  <label for="validationDefault02">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email" id="validationDefault02" id="contact_form_name" required>
                 </div>
               </div>
-              <div class="form-group">
+              <!-- <div class="form-group">
                 <label for="name">Subject</label>
                 <input type="text" class="form-control" name="subject" id="subject" required>
-              </div>
+              </div> -->
               <div class="form-group">
-                <label for="name">Message</label>
-                <textarea class="form-control" name="message" rows="10" required></textarea>
+                <label for="validationDefault03">Message</label>
+                <textarea class="form-control" aria-label="With textarea" name="message" rows="10"
+                id="contact-form-message"
+                required></textarea>
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>
@@ -425,8 +474,8 @@
           <div class="col-lg-3 col-md-6 footer-contact">
             <h3>Kati</h3>
             <p>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+              <strong>Phone:</strong> 0758678812<br>
+              <strong>Email:</strong> katitechnologyteam@gmail.com<br>
             </p>
           </div>
 
